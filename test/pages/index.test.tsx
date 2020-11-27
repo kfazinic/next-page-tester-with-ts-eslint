@@ -1,7 +1,4 @@
 // import React from 'react'
-import { render, screen } from '@testing-library/react'
-import { getPage } from 'next-page-tester'
-
 // import Home from '../../pages/index'
 // import { render } from '@testing-library/react'
 
@@ -11,6 +8,9 @@ import { getPage } from 'next-page-tester'
 //     expect(getByText('Hi'))
 //   })
 // })
+
+import { render, screen } from '@testing-library/react'
+import { getPage } from 'next-page-tester'
 
 describe('Home page', () => {
   it('renders home page', async () => {
