@@ -26,8 +26,8 @@
     ]
   },
   "dependencies": {
-    "next": "9.5.3",
-    "next-page-tester": "0.7.1",
+    "next": "^10.0.3",
+    "next-page-tester": "^0.8.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },
